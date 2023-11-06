@@ -273,7 +273,7 @@ footer #rodape-infos {
 
 #sobre {
 	background-color: var(--cinza-claro-2);
-	background-image: url(/src/img/bonito-empresario-sorridente-usando-o-celular-segurando-o-telefone-em-ambas-as-maos-e-parecendo-satisfeito-com-a-camera-em-pe-de-terno-sobre-fundo-branco.jpg);
+	background-image: url(src/img/bonito-empresario-sorridente-usando-o-celular-segurando-o-telefone-em-ambas-as-maos-e-parecendo-satisfeito-com-a-camera-em-pe-de-terno-sobre-fundo-branco.jpg);
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position-y: 0%;
@@ -536,7 +536,7 @@ h2 strong,
 	main section .content-sessao,
 	main section .content-sessao-anexo,
 	footer div {
-		width: 800px !important;
+		width: 1280px !important;
 		margin: 0 auto !important;
 		box-sizing: border-box;
 	}
