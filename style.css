@@ -24,10 +24,6 @@ a {
 	color: var(--laranja) !important
 }
 
-p {
-	font-size: .8rem !important;
-}
-
 .resolucao {
 	position: fixed;
 	border: .6rem solid red;
@@ -64,7 +60,6 @@ header nav ul {
 	padding: 0 !important;
 	margin: 0 !important;
 	color: var(--preto) !important;
-	font-size: .8rem;
 }
 
 header nav ul li {
@@ -93,7 +88,7 @@ header nav ul li a:hover {
 
 #menu-desktop div {
 	display: flex;
-	width: 800px;
+	width: 1280px;
 	margin: 0 auto !important;
 	justify-content: space-between;
 	align-items: center;
@@ -141,7 +136,7 @@ header nav ul li a:hover {
 /* Conteúdo */
 
 main {
-	font-size: .8rem !important;
+	font-size: 1rem !important;
 }
 
 main section {
@@ -158,7 +153,7 @@ footer {
 }
 
 .bloco-sessao {
-	padding: 4rem 1rem;
+	padding: 6rem 1rem;
 	box-sizing: border-box;
 	height: auto !important;
 }
@@ -192,7 +187,7 @@ footer {
 }
 
 .camp-descricao table tr td {
-	padding-top: .5rem;
+	padding-top: 1rem;
 }
 
 .camp-descricao table tr td:first-of-type {
@@ -225,7 +220,7 @@ footer div ul {
 
 footer div ul li {
 	list-style-type: none;
-	font-size: .6rem;
+	font-size: .8rem;
 	line-height: 1.2rem;
 }
 
@@ -245,6 +240,7 @@ footer .content-sessao div img {
 
 footer #rodape-infos {
 	margin-top: 3rem !important;
+	font-size: .6rem !important;
 }
 
 /* Página HOME */
@@ -256,7 +252,7 @@ footer #rodape-infos {
 
 #banner h1 {
 	font-weight: 800 !important;
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 }
 
 #banner div svg {
@@ -268,7 +264,7 @@ footer #rodape-infos {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 3rem 0;
+	margin: 1rem 0;
 }
 
 #sobre {
@@ -278,7 +274,7 @@ footer #rodape-infos {
 	background-repeat: no-repeat;
 	background-position-y: 0%;
 	background-position-x: 120%;
-	padding: 5rem 0 !important;
+	padding: 10rem 0 !important;
 }
 
 #sobre img {
@@ -309,12 +305,12 @@ h2 strong,
 }
 
 .cases-home .box-case {
-	width: calc((100% / 4) - 1rem) !important;
+	width: calc((100% / 5) - 2rem) !important;
 }
 
 .cases-grupo .box-case,
 .cases-home .box-case {
-	margin: .5rem;
+	margin: 1rem;
 	border: .2rem solid var(--laranja);
 	padding: 1rem;
 	aspect-ratio: 1 / 1 !important;
@@ -330,7 +326,7 @@ h2 strong,
 }
 
 .box-case span img {
-	width: 3rem !important;
+	width: 30% !important;
 	margin: 0 !important;
 	margin-right: 1rem !important;
 	rotate: 270deg;
@@ -338,11 +334,11 @@ h2 strong,
 }
 
 .box-case span p {
-	font-size: .5rem !important;
+	font-size: .8rem !important;
 }
 
 .box-case span p strong {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: 700 !important;
 	color: var(--preto) !important;
 }
@@ -354,7 +350,11 @@ h2 strong,
 }
 
 .box-case>p:first-of-type {
-	font-size: .5rem !important;
+	font-size: .6rem !important;
+}
+
+.box-case>p:last-of-type {
+	font-size: 1rem !important;
 }
 
 #equipe {
@@ -433,7 +433,7 @@ h2 strong,
 }
 
 .box-cooperada p {
-	font-size: .6rem !important;
+	font-size: .8rem !important;
 }
 
 #tailor-made {
@@ -446,7 +446,7 @@ h2 strong,
 
 /* Página REFERÊNCIAS */
 #referencia .content-33_33_33 {
-	margin-bottom: 2rem !important;
+	margin-bottom: 4rem !important;
 }
 
 #referencia .cliente div:first-of-type {
@@ -471,11 +471,11 @@ h2 strong,
 
 #referencia .content-sessao .cliente div h3 span {
 	color: var(--laranja) !important;
-	font-size: .6rem;
+	font-size: .8rem;
 }
 
 #referencia .content-sessao .cliente div p {
-	font-size: .6rem !important;
+	font-size: .8rem !important;
 }
 
 /* Página CASES */
@@ -494,14 +494,6 @@ h2 strong,
 
 #cases .titulo-case {
 	text-align: center !important;
-}
-
-.cases-grupo .box-case {
-	width: calc((100% / 3) - 1rem) !important;
-}
-
-.cases-grupo .box-case span img {
-	width: 2rem !important;
 }
 
 @media screen and (max-width: 920px) {
