@@ -44,13 +44,13 @@ header {
 header a {
 	color: var(--laranja);
 	text-align: right;
-	font-size: 1rem;
+	font-size: .8rem;
 	width: 1rem;
 	text-align: center;
 }
 
 header nav {
-	padding: 1.5rem;
+	padding: 1rem;
 	background-color: #fff;
 	transition: .2s;
 	box-sizing: border-box;
@@ -343,7 +343,7 @@ h2 strong,
 .box-case span p strong {
 	font-size: 2.5rem;
 	font-weight: 700 !important;
-	color: var(--preto) !important;
+	color: var(--laranja) !important;
 }
 
 .box-case>p {
@@ -499,6 +499,24 @@ h2 strong,
 	text-align: center !important;
 }
 
+.cases-grupo .box-case {
+	width: calc((100% / 4) - 2rem) !important;
+}
+
+.cases-grupo .box-case span p {
+	font-size: .6rem !important;
+}
+
+.cases-grupo .box-case span p strong {
+	font-size: 2rem;
+}
+
+#cases .content-sessao>div:first-of-type ul,
+#cases .content-sessao>div:first-of-type p,
+.cases-grupo .box-case>p:last-of-type {
+	font-size: .8rem !important;
+}
+
 @media screen and (max-width: 720px) {
 	#menu-desktop {
 		display: none;
@@ -542,14 +560,14 @@ h2 strong,
 	footer,
 	main section,
 	#menu-desktop {
-		width: 1280px !important; 
+		width: 100% !important; 
 	}
 
 	main section .content-sessao,
 	main section .content-sessao-anexo,
 	footer div,
 	#menu-desktop div {
-		width: 90% !important;
+		width: 1280px !important;
 		margin: 0 auto !important;
 		box-sizing: border-box;
 	}
