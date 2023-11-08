@@ -17,9 +17,14 @@ Site institucional inspirado na agência gência de Marketing de Incentivos __GT
    * Sobre a Empresa
    * Cases
    * Equipe de Colaboradores
-   
 * Metodologia
 * Campanhas
+   * Campanhas Cooperadas
+   * Campanhas Tailor Made
+   * Campanhas Maxx Prêmios
+   * Campanhas de Fidelização
 * Referências
 * Cases
+   * Blocos de empresas com mais campanhas
+   * Galerias com logos de todos os clientes
 * Contatos
