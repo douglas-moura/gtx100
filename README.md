@@ -1,12 +1,12 @@
 # GTX100 Incentivos
 
 Site institucional inspirado na agência gência de Marketing de Incentivos __GTX100__. Este é um projeto focado na prática de desenvolvimento e técnicas básicas como:
-* HTML5
-* CSS
-* JavaScript
-* Estudos de Fontes
-* Paleta de cores
-* Responsividade
+1. HTML5
+1. CSS
+1. JavaScript
+1. Estudos de Fontes
+1. Paleta de cores
+1. Responsividade
 
 ---
 
@@ -17,6 +17,7 @@ Site institucional inspirado na agência gência de Marketing de Incentivos __GT
    * Sobre a Empresa
    * Cases
    * Equipe de Colaboradores
+   
 * Metodologia
 * Campanhas
 * Referências
