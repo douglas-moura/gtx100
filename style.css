@@ -88,7 +88,6 @@ header nav ul li a:hover {
 
 #menu-desktop div {
 	display: flex;
-	width: 1280px;
 	margin: 0 auto !important;
 	justify-content: space-between;
 	align-items: center;
@@ -136,11 +135,14 @@ header nav ul li a:hover {
 /* Conteúdo */
 
 main {
+	/*background-color: #ff000011;*/
 	font-size: 1rem !important;
+	width: 100% !important;
 }
 
 main section {
 	display: flex;
+	/*background-color: #00ff0011;*/
 }
 
 main section div,
@@ -153,7 +155,7 @@ footer {
 }
 
 .bloco-sessao {
-	padding: 6rem 1rem;
+	padding: 6rem 0rem;
 	box-sizing: border-box;
 	height: auto !important;
 }
@@ -165,6 +167,7 @@ footer {
 .content-sessao {
 	padding: 0;
 	display: flex;
+	/*background-color: #0000ff11;*/
 }
 
 .content-sessao-anexo {
@@ -496,7 +499,7 @@ h2 strong,
 	text-align: center !important;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 720px) {
 	#menu-desktop {
 		display: none;
 	}
@@ -507,6 +510,16 @@ h2 strong,
 	
 	.content-sessao {
 		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 730px) and (max-width: 920px) {
+	main section .content-sessao,
+	main section .content-sessao-anexo,
+	footer div {
+		width: 920px !important;
+		margin: 0 auto !important;
+		box-sizing: border-box;
 	}
 }
 
@@ -525,10 +538,18 @@ h2 strong,
 		min-height: 30rem;
 	}
 	
+	main,
+	footer,
+	main section,
+	#menu-desktop {
+		width: 1280px !important; 
+	}
+
 	main section .content-sessao,
 	main section .content-sessao-anexo,
-	footer div {
-		width: 1280px !important;
+	footer div,
+	#menu-desktop div {
+		width: 90% !important;
 		margin: 0 auto !important;
 		box-sizing: border-box;
 	}
@@ -549,7 +570,6 @@ h2 strong,
 	.content-60_40,
 	.content-70_30 {
 		display: flex;
-
 	}
 	
 	.content-25_25_25_25>div {
