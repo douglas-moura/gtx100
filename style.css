@@ -5,7 +5,7 @@
 	--preto: #252525;
 	--cinza-escuro: #696969;
 	--cinza-claro: #CCCCCC;
-	--cinza-claro-2: #fcfcfc;
+	--cinza-claro-2: #f9f9f9;
 }
 
 * {
@@ -180,10 +180,6 @@ footer {
 	font-size: .8rem;
 }
 
-.content-sessao div {
-	
-}
-
 .camp-descricao table {
 	margin: 1rem 0;
 	width: 100%
@@ -271,7 +267,7 @@ footer #rodape-infos {
 }
 
 #sobre {
-	background-color: var(--cinza-claro-2);
+	background-color: #fcfcfc;
 	background-image: url(src/img/bonito-empresario-sorridente-usando-o-celular-segurando-o-telefone-em-ambas-as-maos-e-parecendo-satisfeito-com-a-camera-em-pe-de-terno-sobre-fundo-branco.jpg);
 	background-size: 80%;
 	background-repeat: no-repeat;
