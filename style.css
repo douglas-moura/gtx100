@@ -155,13 +155,13 @@ footer {
 }
 
 .bloco-sessao {
-	padding: 6rem 0rem;
+	padding: 4rem 0rem;
 	box-sizing: border-box;
 	height: auto !important;
 }
 
 .titulo-pagina {
-	padding: 2.5rem 1rem 0 !important;
+	padding: 4rem 0 0 !important;
 }
 
 .content-sessao {
@@ -239,7 +239,8 @@ footer .content-sessao div img {
 
 footer #rodape-infos {
 	margin-top: 3rem !important;
-	font-size: .6rem !important;
+	font-size: .8rem !important;
+	text-align: center;
 }
 
 /* Página HOME */
@@ -415,16 +416,24 @@ h2 strong,
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
-	width: calc(100% / 3 - 2rem) !important;
-	margin: 0 1rem 1.5rem;
+	width: calc(100% / 3 - 3rem) !important;
+	margin: 0 1.5rem;
+	position: relative;
 }
 
-.box-cooperada img {
-	margin: 0 auto .5rem auto !important;
+.box-cooperada picture {
+	display: flex;
+	width: 40%;
+	padding: 1.2rem;
+	box-sizing: border-box;
+	margin-bottom: .5rem;
 	background-color: var(--laranja);
-	border-radius: 25%;
-	padding: 1rem;
-	width: 30%;
+	border-radius: 15%;
+}
+
+.box-cooperada picture img {
+	margin: auto;
+	width: 100%;
 }
 
 .box-cooperada h3 {
@@ -511,6 +520,16 @@ h2 strong,
 #cases .content-sessao>div:first-of-type p,
 .cases-grupo .box-case>p:last-of-type {
 	font-size: .8rem !important;
+}
+
+#cases-galeria div {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#cases-galeria div img {
+	width: calc((100% / 6)) !important;
+	margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 720px) {
