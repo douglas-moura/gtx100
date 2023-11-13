@@ -34,7 +34,6 @@ a {
 }
 
 /* Cabeçalho*/
-
 header {
 	display: flex;
 	justify-content: space-between;
@@ -317,7 +316,7 @@ h2 strong,
 }
 
 .box-case span img {
-	width: 30% !important;
+	width: 25% !important;
 	margin: 0 !important;
 	margin-right: 1rem !important;
 	rotate: 270deg;
@@ -418,10 +417,6 @@ h2 strong,
 	color: var(--laranja);
 }
 
-.box-cooperada p {
-	font-size: .8rem !important;
-}
-
 #tailor-made {
 	background-color: var(--cinza-claro-2);
 }
@@ -486,20 +481,6 @@ h2 strong,
 	width: calc((100% / 4) - 2rem) !important;
 }
 
-.cases-grupo .box-case span p {
-	font-size: .6rem !important;
-}
-
-.cases-grupo .box-case span p strong {
-	font-size: 2rem;
-}
-
-#cases .content-sessao>div:first-of-type ul,
-#cases .content-sessao>div:first-of-type p,
-.cases-grupo .box-case>p:last-of-type {
-	font-size: .8rem !important;
-}
-
 #cases-galeria div {
 	display: flex;
 	flex-wrap: wrap;
@@ -530,7 +511,8 @@ h2 strong,
 		display: none;
 	}
 	
-	main {
+	main,
+	footer {
 		font-size: .8rem !important;
 	}
 	
@@ -647,11 +629,33 @@ h2 strong,
 	.box-case>p:last-of-type {
 		font-size: .6rem !important;
 	}
+
+	.box-cooperada picture {
+		width: 60%;
+		padding: 1.2rem;
+	}
+
+	.box-cooperada p {
+		margin-bottom: 1rem !important;
+	}
+
+	.cases-grupo .box-case span p {
+		font-size: .5rem !important;
+	}
+
+	.cases-grupo .box-case span p strong {
+		font-size: 1.5rem;
+	}
+
+	#cases .content-sessao>div:first-of-type ul,
+	#cases .content-sessao>div:first-of-type p,
+	.cases-grupo .box-case>p:last-of-type {
+		font-size: .6rem !important;
+	}
 }
 
 @media screen and (min-width: 1280px) {
 	main {
-		font-size: 1rem !important;
 		margin-top: 6rem !important;
 		min-height: 30rem;
 	}
