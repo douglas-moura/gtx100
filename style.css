@@ -244,7 +244,7 @@ footer #rodape-infos {
 /* Página HOME */
 #banner {
 	width: 100%;
-	padding: 3rem 0 !important;
+	padding: 5rem 0 !important;
 	/*background-image: url('/src/img/pexels-thirdman-5256816.jpg');*/
 }
 
@@ -322,10 +322,6 @@ h2 strong,
 	margin-right: 1rem !important;
 	rotate: 270deg;
 	aspect-ratio: 1 / 1;
-}
-
-.box-case span p {
-	font-size: .8rem !important;
 }
 
 .box-case span p strong {
@@ -646,7 +642,8 @@ h2 strong,
 	.box-case>p:first-of-type {
 		font-size: .5rem !important;
 	}
-	
+
+	.box-case span p,
 	.box-case>p:last-of-type {
 		font-size: .6rem !important;
 	}
@@ -676,10 +673,6 @@ h2 strong,
 	
 	#sobre {
 		padding: 10rem 0 !important;
-	}
-	
-	.cases-home .box-case {
-		width: calc((100% / 5) - 2rem) !important;
 	}
 	
 	.box-case span p strong {
