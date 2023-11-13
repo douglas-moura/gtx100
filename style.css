@@ -81,7 +81,6 @@ header nav ul li a:hover {
 
 #menu-desktop {
 	position: fixed;
-	width: 100% !important;
 	display: flex;
 	z-index: 9999;
 }
@@ -133,24 +132,24 @@ header nav ul li a:hover {
 }
 
 /* Conteúdo */
-
-main {
-	/*background-color: #ff000011;*/
-	font-size: 1rem !important;
-	width: 100% !important;
-}
-
 main section {
 	display: flex;
 	/*background-color: #00ff0011;*/
 }
 
-main section div,
-footer div {
+main section .content-sessao,
+main section .content-sessao-anexo,
+footer div,
+#menu-desktop div,
+#menu-mobile div {
+	margin: 0 auto !important;
 	box-sizing: border-box;
 }
 
-footer {
+main,
+footer,
+main section,
+#menu-desktop {
 	width: 100% !important;
 }
 
@@ -200,7 +199,6 @@ footer {
 	position: relative;
 	background-color: var(--preto);
 	bottom: 0;
-	width: 100%;
 	z-index: 995 !important;
 	color: #fff;
 }
@@ -246,13 +244,12 @@ footer #rodape-infos {
 /* Página HOME */
 #banner {
 	width: 100%;
-	height: 3rem;
+	padding: 3rem 0 !important;
 	/*background-image: url('/src/img/pexels-thirdman-5256816.jpg');*/
 }
 
 #banner h1 {
 	font-weight: 800 !important;
-	font-size: 3.5rem;
 }
 
 #banner div svg {
@@ -274,7 +271,6 @@ footer #rodape-infos {
 	background-repeat: no-repeat;
 	background-position-y: 0%;
 	background-position-x: 120%;
-	padding: 10rem 0 !important;
 }
 
 #sobre img {
@@ -304,18 +300,13 @@ h2 strong,
 	flex-wrap: wrap !important;
 }
 
-.cases-home .box-case {
-	width: calc((100% / 5) - 2rem) !important;
-}
-
 .cases-grupo .box-case,
 .cases-home .box-case {
-	margin: 1rem;
 	border: .2rem solid var(--laranja);
-	padding: 1rem;
 	aspect-ratio: 1 / 1 !important;
 	display: flex;
 	flex-direction: column;
+	box-sizing: border-box;
 }
 
 .box-case span {
@@ -338,7 +329,6 @@ h2 strong,
 }
 
 .box-case span p strong {
-	font-size: 2.5rem;
 	font-weight: 700 !important;
 	color: var(--laranja) !important;
 }
@@ -347,14 +337,6 @@ h2 strong,
 	text-align: center;
 	font-weight: 600;
 	text-transform: uppercase;
-}
-
-.box-case>p:first-of-type {
-	font-size: .6rem !important;
-}
-
-.box-case>p:last-of-type {
-	font-size: 1rem !important;
 }
 
 #equipe {
@@ -532,7 +514,7 @@ h2 strong,
 	margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
 	#menu-desktop {
 		display: none;
 	}
@@ -546,45 +528,31 @@ h2 strong,
 	}
 }
 
-@media screen and (min-width: 730px) and (max-width: 920px) {
-	main section .content-sessao,
-	main section .content-sessao-anexo,
-	footer div {
-		width: 920px !important;
-		margin: 0 auto !important;
-		box-sizing: border-box;
-	}
-}
-
 @media screen and (min-width: 980px) {
 	#menu-mobile,
 	#top-bar {
 		display: none;
 	}
 	
-	#logo-tipo {
-		height: 3rem;
-	}
-	
 	main {
-		margin-top: 6rem !important;
-		min-height: 30rem;
+		font-size: .8rem !important;
 	}
 	
-	main,
-	footer,
-	main section,
-	#menu-desktop {
-		width: 100% !important; 
-	}
-
 	main section .content-sessao,
 	main section .content-sessao-anexo,
 	footer div,
 	#menu-desktop div {
-		width: 1280px !important;
+		width: 780px !important;
 		margin: 0 auto !important;
 		box-sizing: border-box;
+	}
+	
+	#logo-tipo {
+		height: 2.5rem;
+	}
+	
+	#banner h1 {
+		font-size: 3rem;
 	}
 	
 	.bloco-sessao {
@@ -651,5 +619,78 @@ h2 strong,
 	
 	.content-100>div {
 		width: 100% !important;
+	}
+	
+	#sobre {
+		padding: 5rem 0 !important;
+	}
+	
+	.cases-grupo .box-case,
+	.cases-home .box-case {
+		padding: 1rem;
+	}
+	
+	.cases-home .box-case {
+		width: calc((100% / 5) - 1rem) !important;
+	}
+	
+	.cases-grupo .box-case,
+	.cases-home .box-case {
+		margin: .5rem;
+	}
+	
+	.box-case span p strong {
+		font-size: 2rem;
+	}
+	
+	.box-case>p:first-of-type {
+		font-size: .5rem !important;
+	}
+	
+	.box-case>p:last-of-type {
+		font-size: .6rem !important;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	main {
+		font-size: 1rem !important;
+		margin-top: 6rem !important;
+		min-height: 30rem;
+	}
+
+	main section .content-sessao,
+	main section .content-sessao-anexo,
+	footer div,
+	#menu-desktop div {
+		width: 1080px !important;
+	}
+	
+	#logo-tipo {
+		height: 3rem;
+	}
+	
+	#banner h1 {
+		font-size: 3.5rem;
+	}
+	
+	#sobre {
+		padding: 10rem 0 !important;
+	}
+	
+	.cases-home .box-case {
+		width: calc((100% / 5) - 2rem) !important;
+	}
+	
+	.box-case span p strong {
+		font-size: 2.5rem;
+	}
+	
+	.box-case>p:first-of-type {
+		font-size: .6rem !important;
+	}
+	
+	.box-case>p:last-of-type {
+		font-size: 1rem !important;
 	}
 }
