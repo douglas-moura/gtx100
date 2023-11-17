@@ -164,7 +164,6 @@ main section,
 
 .titulo-pagina {
 	padding: 4rem 0 0 !important;
-	min-height: auto !important;
 }
 
 .content-sessao {
@@ -482,18 +481,19 @@ h2 strong,
 	text-align: center !important;
 }
 
-.cases-grupo .box-case {
-	width: calc((100% / 4) - 2rem) !important;
-}
-
 #cases-galeria div {
 	display: flex;
 	flex-wrap: wrap;
 }
 
 #cases-galeria div img {
-	width: calc((100% / 6)) !important;
+	width: calc(100% / 8) !important;
+	filter: saturate(0) opacity(.6);
 	margin-bottom: 2rem;
+}
+
+#cases-galeria div img:hover {
+	filter: saturate(1) opacity(1);
 }
 
 @media screen and (max-width: 480px) {
@@ -519,10 +519,6 @@ h2 strong,
 	main,
 	footer {
 		font-size: .8rem !important;
-	}
-
-	main section {
-		min-height: 40rem !important;
 	}
 	
 	main section .content-sessao,
@@ -625,6 +621,10 @@ h2 strong,
 	.cases-home .box-case {
 		width: calc((100% / 5) - 1rem) !important;
 	}
+
+	.cases-grupo .box-case {
+		width: calc((100% / 4) - 1rem) !important;
+	}
 	
 	.cases-grupo .box-case,
 	.cases-home .box-case {
@@ -669,10 +669,15 @@ h2 strong,
 		margin-top: 3rem !important;
 		background-color: #eef0ed;
 		background-image: url('src/img/familia-1.jpg');
-		backdrop-filter: opacity(20%);
+		-webkit-backdrop-filter: blur(5px);
+		backdrop-filter: opacity(20px);
 		background-size: contain;
 		background-position: right bottom;
 		background-repeat: no-repeat;
+	}
+
+	#total-f-e .content-sessao {
+		padding: 5rem 0;
 	}
 
 	#metodologia-quadro h1 {
@@ -692,9 +697,9 @@ h2 strong,
 	.quadro-seta-2 {
 		position: absolute;
 		margin-top: -5rem;
-		margin-left: calc(50% - 2.5rem);
+		margin-left: calc(70% - 2.5rem);
 		width: 10rem;
-		aspect-ratio: 1.5 / 1;
+		aspect-ratio: 2 / 1;
 		clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
 	}
 }
