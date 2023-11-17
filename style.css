@@ -684,6 +684,11 @@ h2 strong,
 		font-size: 3rem !important;
 	}
 
+	#metodologia-quadro .content-sessao .quadro-titulo {
+		display: flex;
+		align-items: center;
+	}
+
 	.quadro-seta-1 {
 		background-color: white;
 	}
@@ -701,6 +706,54 @@ h2 strong,
 		width: 10rem;
 		aspect-ratio: 2 / 1;
 		clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
+	}
+
+	.praticas,
+	.especialistas {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.especialista-box {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		width: calc(100% / 3);
+		padding: 2rem;
+		align-items: center;
+	}
+
+	.especialista-box picture,
+	.especialista-box picture img {
+		border-radius: 50%;
+		aspect-ratio: 1 / 1;
+	}
+
+	.especialista-box picture {
+		display: flex;
+		width: 100%;
+		margin-bottom: 1rem;
+		border: .1rem solid var(--laranja);
+	}
+	
+	.especialista-box picture img {
+		margin: auto;
+		width: 90%;
+		object-fit: fill;
+	}
+
+	.praticas ul {
+		padding: 1rem !important;
+		margin: 5rem 0;
+		width: calc(100% / 3 - 2rem);
+	}
+
+	.praticas ul li {
+		list-style-type: none;
+	}
+
+	.praticas ul li:not(:last-of-type) {
+		margin-bottom: 3rem;
 	}
 }
 
@@ -739,5 +792,9 @@ h2 strong,
 	
 	.box-case>p:last-of-type {
 		font-size: 1rem !important;
+	}	
+
+	#total-f-e .content-sessao {
+		padding: 7rem 0;
 	}
 }
