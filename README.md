@@ -18,6 +18,10 @@ Site institucional inspirado na agência gência de Marketing de Incentivos __GT
    * Cases
    * Equipe de Colaboradores
 * Metodologia
+   * Total Family Engagement
+   * Ciência
+   * Prática
+   * Resultado 
 * Campanhas
    * Campanhas Cooperadas
    * Campanhas Tailor Made
@@ -25,6 +29,7 @@ Site institucional inspirado na agência gência de Marketing de Incentivos __GT
    * Campanhas de Fidelização
 * Referências
 * Cases
-   * Blocos de empresas com mais campanhas
-   * Galerias com logos de todos os clientes
+   * Empresas com mais campanhas
+   * Galerias de todos os clientes
 * Contatos
+   * Formulário de Contato 
