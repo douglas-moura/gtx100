@@ -808,7 +808,7 @@ h2 strong,
 	.especialista-box picture img {
 		margin: auto;
 		width: 90%;
-		object-fit: fill;
+		object-fit: cover;
 	}
 
 	.praticas table {
@@ -823,19 +823,27 @@ h2 strong,
 	
 	.praticas table tr td span {
 		width: 100% - 1rem;
+		margin: 0 .5rem;
 		display: flex;
-		padding-left: 1rem;
+		align-items: top;
 	}
 	
-	.praticas table tr td span img {
-		width: 5%;
-		height: 10%;
-		margin-right: .5rem;
-		filter: brightness(100) !important;
+	.praticas table tr td span svg {
+		aspect-ratio: 1 / 1;
+		width: 10% !important;
+		border-radius: .2rem;
+		padding: .3rem;
+		height: 100%;
+		margin-right: 5%;
+		background-color: white;
+	}
+	
+	.praticas table tr td span p {
+		width: 85% !important;
 	}
 	
 	.praticas table tr:not(:last-of-type) td {
-		padding-bottom: 2rem !important;
+		padding-bottom: 3rem !important;
 	}
 }
 
