@@ -1,0 +1,228 @@
+<?php
+    include_once __DIR__ . '/config.php';
+    include_once __DIR__ . '/src/layout/head.php';
+?>
+<main class="content">
+    <section id="banner" class="bloco-sessao">
+        <div class="content-sessao content-50_50">
+            <div>
+                <h1>EQUIPES MAIS <strong>MOTIVADAS</strong>, EMPRESA MAIS <strong>PRODUTIVA</strong>.</h1>
+                <br>
+                <h3>ESTAMOS FALANDO DO MÉTODO <strong>TOTAL FAMILY ENGAGEMENT</strong> DA GTX100.</h3>
+            </div>
+            <div>
+            </div>
+        </div>
+    </section>
+    <section id="sobre" class="bloco-sessao">
+        <div class="content-sessao content-60_40">
+            <div>
+                <img src="src/img/GTX100_logo.png" alt="">
+                <p>A GTX100 é uma assessoria para aumento de performance, a única no ramo dedicada com exclusividade a campanhas de incentivos internos e externos e fidelização de clientes. Realiza diagnósticos, avalia e implanta indicadores, estrutura e propõe campanhas de melhorias e as implementa.</p>
+                <br>
+                <p>Sua expertise vai além de bater metas de produtividade, faz com que os colaboradores sejam motivados pelas pessoas mais importantes de suas vidas: sua família. E os resultados sempre superam as metas e as expectativas.</p>
+            </div>
+            <div></div>
+        </div>
+    </section>
+    <section id="info-crescimento" class="bloco-sessao">
+        <div class="content-sessao content-100">
+            <div>
+                <h1>você só investe se crescer.<br>Na GTX100, o crescimento é <strong>autofinaciável</strong></h1>
+                <br>
+                <div class="cases-home">
+                    <div class="box-case">
+                        <h3>Porto Seguro</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>61%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Conquistadores<br>Ano 03</p>
+                    </div>
+                    <div class="box-case">
+                        <h3>Castrol</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>108%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>High<br>Performance</p>
+                    </div>
+                    <div class="box-case">
+                        <h3>John Deere</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>58%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Desafio<br> </p>
+                    </div>
+                    <div class="box-case">
+                        <h3>GM Peças</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>71%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Garra GM</p>
+                    </div>
+                    <div class="box-case">
+                        <h3>Syngenta</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>54%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Super Safra<br>de Prêmio</p>
+                    </div>
+                    <div class="box-case">
+                        <h3>Pfizer</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>33%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Superação</p>
+                    </div>
+                    <div class="box-case">
+                        <h3>Gillette</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>187%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Líder<br>de Vendas</p>
+                    </div>
+                    <div class="box-case">
+                        <h3>Delco</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>127%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Energia</p>
+                    </div>
+                    <div class="box-case">
+                        <h3>Delco</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>127%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Energia</p>
+                    </div>
+                    <div class="box-case">
+                        <h3>Delco</h3>
+                        <span>
+                            <img src="src/img/seta.png" alt="">
+                            <p><strong>127%</strong><br>de crescimento</p>
+                        </span>
+                        <p>campanha</p>
+                        <p>Energia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-sessao-anexo content-100">
+            <a href="./cases/index.html">Veja mais resultados aqui</a>
+        </div>
+    </section>
+    <section id="equipe" class="bloco-sessao">
+        <h1>CONHEÇA A <strong>EQUIPE GTX100</strong></h1>
+        <br>
+        <div class="content-100">
+            <div class="card card-1" onclick="flipCard('1')">
+                <div class="info-time">
+                    <span>
+                        <h1>Carlos Oliveira</h1>
+                        <p>Engenheiro de Software Sênior</p>
+                        <br>
+                        <p>Carlos é um mestre da codificação, sempre buscando soluções elegantes para desafios complexos. Sua experiência extensa e abordagem metódica o tornam um líder natural em projetos de desenvolvimento de software.</p>
+                    </span>
+                </div>
+                <img src="src/img/equipe/foto-1.jpg" alt="">
+            </div>
+            <div class="card card-2" onclick="flipCard('2')">
+                <div class="info-time">
+                    <span>
+                        <h1>Mariana Santos</h1>
+                        <p>Analista Financeira</p>
+                        <br>
+                        <p>Mariana é meticulosa quando se trata de números. Sua habilidade em analisar dados financeiros e prever tendências é incomparável. Ela mantém as finanças da empresa organizadas, garantindo eficiência e transparência.</p>
+                    </span>
+                </div>
+                <img src="src/img/equipe/foto-2.jpg" alt="">
+            </div>
+            <div class="card card-3" onclick="flipCard('3')">
+                <div class="info-time">
+                    <span>
+                        <h1>Rafael Oliveira</h1>
+                        <p>Designer Gráfico</p>
+                        <br>
+                        <p>Rafael é um artista visual talentoso, capaz de transformar conceitos abstratos em designs cativantes. Sua criatividade e atenção aos detalhes elevam a identidade visual da empresa a um nível superior.</p>
+                    </span>
+                </div>
+                <img src="src/img/equipe/foto-3.jpg" alt="">
+            </div>
+            <div class="card card-4" onclick="flipCard('4')">
+                <div class="info-time">
+                    <span>
+                        <h1>André Rodrigues</h1>
+                        <p>Analista de Sistemas</p>
+                        <br>
+                        <p>André é apaixonado por resolver problemas complexos. Sua mente analítica e habilidades de resolução de problemas fazem dele um ativo valioso para a equipe de TI, sempre pronto para enfrentar desafios tecnológicos.</p>
+                    </span>
+                </div>
+                <img src="src/img/equipe/foto-4.jpg" alt="">
+            </div>
+            <div class="card card-5" onclick="flipCard('5')">
+                <div class="info-time">
+                    <span>
+                        <h1>Isabela Fernandes</h1>
+                        <p>Coordenadora de Atendimento</p>
+                        <br>
+                        <p>Isabela é conhecida por sua paciência e habilidade em lidar com clientes. Sua abordagem proativa garante um serviço excepcional, construindo relacionamentos sólidos e fidelizando os clientes.</p>
+                    </span>
+                </div>
+                <img src="src/img/equipe/foto-5.jpg" alt="">
+            </div>
+            <div class="card card-6" onclick="flipCard('6')">
+                <div class="info-time">
+                    <span>
+                        <h1>Patrícia Lima</h1>
+                        <p>Gerente de Recursos Humanos</p>
+                        <br>
+                        <p>Patrícia é uma líder empática e dedicada, focada no bem-estar da equipe. Sua abordagem centrada nas pessoas cria um ambiente de trabalho positivo, promovendo o desenvolvimento profissional e pessoal.</p>
+                    </span>
+                </div>
+                <img src="src/img/equipe/foto-6.jpg" alt="">
+            </div>
+            <div class="card card-7" onclick="flipCard('7')">
+                <div class="info-time">
+                    <span>
+                        <h1>Gabriel Mendes</h1>
+                        <p>Analista de Marketing Digital</p>
+                        <br>
+                        <p>Gabriel é especialista em marketing digital, sempre explorando novas estratégias para aumentar a presença online da empresa. Seu entendimento afiado das mídias sociais e análise de dados impulsiona o sucesso das campanhas digitais.</p>
+                    </span>
+                </div>
+                <img src="src/img/equipe/foto-7.jpg" alt="">
+            </div>
+            <div class="card card-8" onclick="flipCard('8')">
+                <div class="info-time">
+                    <span>
+                        <h1>Ana Silva</h1>
+                        <p>Diretora de Marketing</p>
+                        <br>
+                        <p>Ana é uma estrategista criativa com um talento excepcional para desenvolver campanhas inovadoras. Sempre atualizada com as últimas tendências do mercado, ela lidera a equipe de marketing com paixão e determinação.</p>
+                    </span>
+                </div>
+                <img src="src/img/equipe/foto-8.jpg" alt="">
+            </div>
+        </div>
+    </section>
+</main>
+<?php
+    include_once __DIR__ . '/src/layout/foot.php';
+?>
