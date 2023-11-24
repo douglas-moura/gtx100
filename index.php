@@ -10,9 +10,9 @@
                 <br>
                 <h3>ESTAMOS FALANDO DO MÉTODO <strong>TOTAL FAMILY ENGAGEMENT</strong> DA GTX100.</h3>
             </div>
-            <div>
-            </div>
+            <div></div>
         </div>
+        <svg height="100" width="100" class="seta-svg" id="seta-1"> <polygon points="50 5, 95 45, 95 95, 50 55, 5 95, 5 45" /> </svg>
     </section>
     <section id="sobre" class="bloco-sessao">
         <div class="content-sessao content-60_40">

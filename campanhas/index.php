@@ -2,7 +2,7 @@
     include_once __DIR__ . '/../config.php';
     include_once __DIR__ . '/../src/layout/head.php';
 ?>
-<main class="content">
+<main class="content campanhas">
 	<section id="cooperada" class="bloco-sessao">
 		<div class="content-sessao content-50_50">
 			<div class="camp-descricao">
