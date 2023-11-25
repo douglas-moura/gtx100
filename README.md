@@ -12,25 +12,28 @@ Site institucional inspirado na agência gência de Marketing de Incentivos __GT
 
 #### Estrutura do Site
 
-* Home
+* __Home__
    * Banner
    * Sobre a Empresa
    * Cases
    * Equipe de Colaboradores
    
-* Metodologia
+* __Metodologia__
    * Total Family Engagement
    * Ciência
    * Prática
-   * Resultado 
-* Campanhas
+   * Resultado
+  
+* __Campanhas__
    * Campanhas Cooperadas
    * Campanhas Tailor Made
    * Campanhas Maxx Prêmios
    * Campanhas de Fidelização
-* Referências
-* Cases
+  
+* __Referências__
+* __Cases__
    * Empresas com mais campanhas
    * Galerias de todos os clientes
-* Contatos
+  
+* __Contatos__
    * Formulário de Contato 
