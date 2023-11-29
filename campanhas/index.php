@@ -1,4 +1,5 @@
 <?php
+	$titulo_pagina = 'Tipos de Campanha';
     include_once __DIR__ . '/../config.php';
     include_once __DIR__ . '/../src/layout/head.php';
 

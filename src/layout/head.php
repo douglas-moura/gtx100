@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>GTX100</title>
+		<title>GTX100 <?php echo $titulo_pagina ?></title>
 		
 		<!-- Custom Styles -->
 		<link rel="stylesheet" href=<?php echo '/' . $config['host'] . '/src/css/style.css'?>>
