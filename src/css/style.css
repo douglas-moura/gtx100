@@ -612,6 +612,49 @@ h2 strong,
 	width: 48%;
 }
 
+#total-f-e {
+	background-color: #eef0ed;
+	background-image: url('../../src/img/familia-1.jpg');
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: opacity(20px);
+	background-size: contain;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.especialista-box picture,
+.especialista-box picture img {
+	border-radius: 50%;
+	aspect-ratio: 1 / 1;
+}
+
+.especialista-box picture {
+	display: flex;
+	width: 100%;
+	margin-bottom: 1rem;
+	border: .1rem solid var(--laranja);
+}
+
+.especialista-box picture img {
+	margin: auto;
+	width: 90%;
+	object-fit: cover;
+	filter: saturate(0);
+}
+	
+.quadro-seta-2,
+.quadro-2 {
+	background-color: var(--laranja);
+	color: white;
+}
+
+.praticas table tr td span svg {
+	aspect-ratio: 1 / 1;
+	border-radius: .2rem;
+	height: 100%;
+	background-color: white;
+}
+
 .resultados {
 	padding: 3rem 0;
 }
@@ -650,6 +693,32 @@ h2 strong,
 }
 
 @media screen and (max-width: 480px) {
+	header a {
+		font-size: 1rem !important;
+	}
+
+	footer .content-sessao div {
+		margin: 0 !important;
+	}
+
+	#banner,
+	.bloco-sessao {
+		flex-direction: column !important;
+		padding: 3.5rem 2rem !important;
+	}
+
+	.content-sessao {
+		flex-direction: column;
+	}
+
+	.titulo-pagina {
+		padding: 2rem !important;
+	}
+
+	.content-sessao-anexo a {
+		font-size: 1rem;
+	}
+
 	#menu-desktop {
 		display: none;
 	}
@@ -657,9 +726,102 @@ h2 strong,
 	#logo-tipo {
 		height: 2rem;
 	}
+
+	#banner .content-sessao div h1 {
+		font-size: 2rem !important;
+	}
+
+	#banner #seta-1 {
+		margin: 0% 0% 0% 55% !important;
+	}
 	
-	.content-sessao {
-		flex-direction: column;
+	#banner #seta-2 {
+		margin: -10% 0% 0% 0% !important;
+	}
+	
+	#banner #seta-3 {
+		margin: 5% 0% 0% 50% !important;
+	}
+	
+	#banner #seta-4 {
+		margin: 55% 0% 0% 10% !important;
+	}
+	
+	#banner #seta-5 {
+		margin: -10% 0% 0% -95% !important;
+	}
+	
+	#banner #seta-6 {
+		margin: -10% 0% 0% 60% !important;
+	}
+
+	#sobre {
+		background-image: none !important;
+	}
+
+	#info-crescimento .content-sessao div .cases-home .box-case {
+		width: 100% !important;
+		padding: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	#info-crescimento .content-sessao div .cases-home .box-case h3 {
+		font-size: 1.5rem;
+	}
+
+	#info-crescimento .content-sessao div .cases-home .box-case span img {
+		width: 40% !important;
+	}
+	
+	#info-crescimento .content-sessao div .cases-home .box-case span p {
+		font-size: .8rem;
+	}
+	
+	#info-crescimento .content-sessao div .cases-home .box-case span p strong {
+		font-size: 3rem;
+	}
+
+	#equipe>h1 {
+		margin: 0 2rem !important;
+	}
+
+	#equipe .content-100 {
+		flex-direction: column !important;
+	}
+
+	#equipe .content-100 .card {
+		width: 100% !important;
+	}
+
+	#equipe .content-100 .card .info-time span p:last-of-type {
+		font-size: .8rem !important;
+	}
+
+	#total-f-e {
+		background-image: none;
+	}
+
+	#metodologia-quadro .content-sessao .quadro-titulo {
+		margin-bottom: 2rem !important;
+	}
+
+	#metodologia-quadro .content-sessao .quadro-titulo h1 {
+		font-size: 2.5rem !important;
+	}
+
+	#metodologia-quadro .content-sessao .especialistas {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#metodologia-quadro .content-sessao .especialistas .especialista-box {
+		margin: .5rem;
+		margin-bottom: 3rem !important;
+		width: calc(100% / 2 - 1rem);
+	}
+
+	#metodologia-quadro .content-sessao .especialistas .especialista-box h4 {
+		font-size: 1.5rem !important;
 	}
 }
 
@@ -687,7 +849,6 @@ h2 strong,
 		margin: auto !important;
 		box-sizing: border-box;
 	}
-
 	
 	footer div {
 		margin: 0 auto !important;
@@ -825,13 +986,6 @@ h2 strong,
 
 	#total-f-e {
 		margin-top: 3rem !important;
-		background-color: #eef0ed;
-		background-image: url('../../src/img/familia-1.jpg');
-		-webkit-backdrop-filter: blur(5px);
-		backdrop-filter: opacity(20px);
-		background-size: contain;
-		background-position: right bottom;
-		background-repeat: no-repeat;
 	}
 
 	#total-f-e .content-sessao {
@@ -849,12 +1003,6 @@ h2 strong,
 
 	.quadro-seta-1 {
 		background-color: white;
-	}
-	
-	.quadro-seta-2,
-	.quadro-2 {
-		background-color: var(--laranja);
-		color: white;
 	}
 
 	.quadro-seta-1,
@@ -886,26 +1034,6 @@ h2 strong,
 		align-items: center;
 	}
 
-	.especialista-box picture,
-	.especialista-box picture img {
-		border-radius: 50%;
-		aspect-ratio: 1 / 1;
-	}
-
-	.especialista-box picture {
-		display: flex;
-		width: 100%;
-		margin-bottom: 1rem;
-		border: .1rem solid var(--laranja);
-	}
-	
-	.especialista-box picture img {
-		margin: auto;
-		width: 90%;
-		object-fit: cover;
-		filter: saturate(0);
-	}
-
 	.praticas table {
 		padding: 1.5rem 0 !important;
 		margin: 3rem 0;
@@ -930,7 +1058,6 @@ h2 strong,
 		padding: .3rem;
 		height: 100%;
 		margin-right: 5%;
-		background-color: white;
 	}
 	
 	.praticas table tr td span p {
