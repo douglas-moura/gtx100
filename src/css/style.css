@@ -622,6 +622,13 @@ h2 strong,
 	background-repeat: no-repeat;
 }
 
+
+.praticas,
+.especialistas {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .especialista-box picture,
 .especialista-box picture img {
 	border-radius: 50%;
@@ -647,12 +654,18 @@ h2 strong,
 	background-color: var(--laranja);
 	color: white;
 }
+	
+.praticas table tr td {
+	width: calc(100% / 3);
+	vertical-align: top;
+}
 
 .praticas table tr td span svg {
 	aspect-ratio: 1 / 1;
 	border-radius: .2rem;
 	height: 100%;
 	background-color: white;
+	width: 1rem !important;
 }
 
 .resultados {
@@ -785,12 +798,8 @@ h2 strong,
 		margin: 0 2rem !important;
 	}
 
-	#equipe .content-100 {
-		flex-direction: column !important;
-	}
-
 	#equipe .content-100 .card {
-		width: 100% !important;
+		width: 50% !important;
 	}
 
 	#equipe .content-100 .card .info-time span p:last-of-type {
@@ -821,7 +830,45 @@ h2 strong,
 	}
 
 	#metodologia-quadro .content-sessao .especialistas .especialista-box h4 {
-		font-size: 1.5rem !important;
+		font-size: 1rem !important;
+		width: 60%;
+	}
+
+	#tabela-desktop {
+		display: none !important;
+	}
+	
+	.praticas table tr td span svg {
+		padding: .2rem;
+		margin-right: 5%;
+	}
+
+	#tabela-mobile tr td {
+		width: 50% !important;
+	}
+
+	#tabela-mobile tr td span p {
+		font-size: .8rem !important;
+		width: 85% !important;
+		margin-bottom: 2rem;
+	}
+
+	.resultados {
+		padding: 0 0 3rem 0;
+	}
+
+	.resultados ul li {
+		width: calc(100% / 2 - 1rem);
+		margin: .5rem;
+		padding: 1rem;
+	}
+
+	.resultados ul li img {
+    	height: 3rem;
+	}
+
+	.resultados ul li h3 {
+		font-size: .8rem !important;
 	}
 }
 
@@ -1015,12 +1062,6 @@ h2 strong,
 		clip-path: polygon(50% 100%, 0% 0%, 100% 0%);
 	}
 
-	.praticas,
-	.especialistas {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
 	.especialistas {
 		padding: 2rem 0;
 	}
@@ -1039,11 +1080,6 @@ h2 strong,
 		margin: 3rem 0;
 	}
 	
-	.praticas table tr td {
-		width: calc(100% / 3);
-		vertical-align: top;
-	}
-	
 	.praticas table tr td span {
 		width: 100% - 1rem;
 		margin-right: 1.5rem;
@@ -1052,11 +1088,7 @@ h2 strong,
 	}
 	
 	.praticas table tr td span svg {
-		aspect-ratio: 1 / 1;
-		width: 10% !important;
-		border-radius: .2rem;
 		padding: .3rem;
-		height: 100%;
 		margin-right: 5%;
 	}
 	
@@ -1066,6 +1098,10 @@ h2 strong,
 	
 	.praticas table tr:not(:last-of-type) td {
 		padding-bottom: 3rem !important;
+	}
+
+	#tabela-mobile {
+		display: none !important;
 	}
 }
 
