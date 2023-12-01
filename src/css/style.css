@@ -772,24 +772,30 @@ h2 strong,
 		background-image: none !important;
 	}
 
+	#cases .content-sessao .cases-grupo .box-case,
 	#info-crescimento .content-sessao div .cases-home .box-case {
 		width: 100% !important;
 		padding: 2rem;
 		margin-bottom: 2rem;
 	}
 
+	#cases .content-sessao .cases-grupo .box-case h5,
 	#info-crescimento .content-sessao div .cases-home .box-case h3 {
 		font-size: 1.5rem;
 	}
 
+	
+	#cases .content-sessao .cases-grupo .box-case span img,
 	#info-crescimento .content-sessao div .cases-home .box-case span img {
 		width: 40% !important;
 	}
-	
+		
+	#cases .content-sessao .cases-grupo .box-case span p,
 	#info-crescimento .content-sessao div .cases-home .box-case span p {
 		font-size: .8rem;
 	}
 	
+	#cases .content-sessao .cases-grupo .box-case span p strong,
 	#info-crescimento .content-sessao div .cases-home .box-case span p strong {
 		font-size: 3rem;
 	}
@@ -914,6 +920,18 @@ h2 strong,
 	
 	#referencia .cliente div img {
 		width: 50%;
+	}
+
+	#cases .content-sessao>div:first-of-type {
+		margin-bottom: 3rem !important;
+	}
+
+	#cases-galeria div {
+		flex-direction: row;
+	}
+
+	#cases-galeria div img {
+		width: calc(100% / 2) !important;
 	}
 }
 
