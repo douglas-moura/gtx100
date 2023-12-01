@@ -933,6 +933,24 @@ h2 strong,
 	#cases-galeria div img {
 		width: calc(100% / 2) !important;
 	}
+
+	#form-contato {
+		padding: 0 2rem !important;
+	}
+
+	#form-contato .content-sessao #contat-infos {
+		padding-right: 2rem !important;
+		padding-bottom: 3rem !important;
+	}
+
+	#form-contato .content-sessao #form-box {
+		padding: 1rem !important;
+		margin-bottom: 5rem !important;
+	}
+
+	#form-box p {
+		font-size: .8rem !important;
+	}
 }
 
 @media screen and (min-width: 980px) {

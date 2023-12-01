@@ -44,6 +44,6 @@
 			</nav>
 			<div id="top-bar">
 				<a onclick="abrirMenu()" href="#">&#9776;</a>
-				<img id="logo-tipo" src=<?php echo '/' . $config['host'] . '/src/img/GTX100_logo.png'?> alt="" />
+				<img id="logo-tipo" src=<?php echo '/' . $config['host'] . '/src/img/logo-gtx100_transparente_br.png'?> alt="" />
 			</div>
 		</header>
