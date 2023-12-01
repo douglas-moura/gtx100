@@ -870,6 +870,51 @@ h2 strong,
 	.resultados ul li h3 {
 		font-size: .8rem !important;
 	}
+
+	.campanhas section .content-sessao>div {
+		padding: 2rem 0 !important;
+	}
+
+	.camp-descricao table tbody tr td {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.camp-descricao table tr td:first-of-type {
+		width: 100%;
+	}
+
+	.camp-descricao table tr td:last-of-type {
+		margin-bottom: 2rem !important;
+	}
+
+	#cooperada div .tipos-coop {
+		padding: 0 !important;
+		display: flex !important;
+		flex-direction: column !important;
+	}
+
+	#cooperada div .tipos-coop .box-cooperada {
+		width: 100% !important;
+		margin: 0 0 3rem 0 !important;
+	}
+
+	.box-cooperada picture {
+		width: 30%;
+	}
+
+	#referencia .cliente {
+		margin-bottom: 5rem !important;
+	}
+
+	#referencia .cliente div svg {
+		position: relative;
+		width: 60%;
+	}
+	
+	#referencia .cliente div img {
+		width: 50%;
+	}
 }
 
 @media screen and (min-width: 980px) {
