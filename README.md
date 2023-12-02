@@ -7,6 +7,7 @@ Site institucional inspirado na agência de Marketing de Incentivos __GTX100__. 
 1. Estudos de Fontes
 1. Paleta de cores
 1. Responsividade
+1. PHP Include
 
 ---
 
