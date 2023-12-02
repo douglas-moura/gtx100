@@ -10,7 +10,7 @@ Site institucional inspirado na agência gência de Marketing de Incentivos __GT
 
 ---
 
-#### Estrutura do Site
+#### Mapa do Site
 
 * __Home__
    * Banner
