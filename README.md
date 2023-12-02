@@ -2,7 +2,7 @@
 
 Site institucional inspirado na agência de Marketing de Incentivos __GTX100__. Este é um projeto não tem nenhum propósito comercial, sendo criado apenas focado na prática de desenvolvimento e técnicas básicas como:
 1. HTML5
-1. CSS
+1. CSS3
 1. JavaScript
 1. Estudos de Fontes
 1. Paleta de cores
