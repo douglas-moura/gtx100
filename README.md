@@ -1,6 +1,6 @@
 # GTX100 Incentivos
 
-Site institucional inspirado na agência gência de Marketing de Incentivos __GTX100__. Este é um projeto focado na prática de desenvolvimento e técnicas básicas como:
+Site institucional inspirado na agência de Marketing de Incentivos __GTX100__. Este é um projeto não tem nenhum propósito comercial, sendo criado apenas focado na prática de desenvolvimento e técnicas básicas como:
 1. HTML5
 1. CSS
 1. JavaScript
